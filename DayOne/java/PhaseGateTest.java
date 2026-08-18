@@ -17,8 +17,14 @@ java-cp "junit-platform-console-standalone-1.11.0.jar:out"org.junit.platform.con
 
 
 
+const scanner = require ("prompt-sync")();
+
+const days = Number(scanner("enter a 1-7 for days of the week: "));
 
 
+
+
+python3 -m unittest file name.py
 
 
 
