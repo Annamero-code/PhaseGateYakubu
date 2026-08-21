@@ -39,10 +39,11 @@ public class FunctionTasks{
     }
 
 
-    public static int reverse(String numbers ){
+    public static String reverse(String numbers ){
     String reverse = "";
     for(int counter = numbers.length() -1; counter >= 0; counter --){
-    reverse += counter.charAtnumbers;
+    reverse += numbers.charAt(counter);
+    }
     return reverse;
     }
 
